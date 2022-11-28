@@ -1,7 +1,7 @@
 const libros = [{imagen: 'https://images.cdn3.buscalibre.com/fit-in/360x360/54/49/5449ba87a3e457a22dd6d0972b5c261e.jpg', codigo: 1, tipo: 'El señor de los anillos. La comunidad del anillo.', precio: 5600},
                  {imagen: 'https://img1.od-cdn.com/ImageType-400/5822-1/%7B05572FDC-B056-457A-9DA4-362F2C58497D%7DIMG400.JPG', codigo: 2, tipo: 'El señor de los anillos. Las dos Torres', precio: 7500},
                  {imagen: 'https://www.planetadelibros.com.ar/usuaris/libros/fotos/48/m_libros/47931_portada_el-senor-de-los-anillos-n-0303-el-retorno-del-rey-ne_j-r-r-tolkien_202203111320.jpg', codigo: 3, tipo: 'El señor de los anillos. El retorno del rey', precio: 8600},
-                 {imagen: 'https://images.cdn2.buscalibre.com/fit-in/360x360/e3/bc/e3bcd85377567759874a0664f894a67b.jpg', codigo: 4, tipo: 'Harry Potter y la piedra filosofal', precio: 3450},
+                 {imagen: 'https://cloudfront-us-east-1.images.arcpublishing.com/gruporepublica/QDMX4SBFANGOBGOHMPYSXO7RTM.jpg', precio: 3450},
                  {imagen: 'https://i.pinimg.com/originals/dd/ac/f8/ddacf8b42803d14022a2821a7340c89e.jpg', codigo: 5, tipo: 'Harry Potter y la cámara secreta', precio: 6010},
                  {imagen: 'https://qph.cf2.quoracdn.net/main-qimg-7bd067ca8385d8657e9d602d64fcbfad-pjlq', codigo: 6, tipo: 'Harry Potter y el prisionero de azkaban', precio: 6653},
                  {imagen: 'https://http2.mlstatic.com/D_NQ_NP_937011-MLA47578337433_092021-O.jpg', codigo: 7, tipo: 'Harry Potter y el cáliz de fuego', precio: 7952},
