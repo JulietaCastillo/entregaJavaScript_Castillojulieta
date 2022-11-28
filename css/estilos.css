@@ -4,27 +4,32 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;600&display=swap');
 
-
 * {
     margin: 10px;
 }
 
 main {
-    background-color: rgba(80, 94, 83, 0.264);
+    background-color: rgba(233, 233, 193, 0.377);
     padding: 10px;
+    font-family: 'Poppins';
+}
 
+h3 {
+    font-size: 30px;
+    color: rgb(54, 54, 54);
+    background-color: rgba(131, 172, 56, 0.521);
 }
 
 footer {
-    background-color: rgb(228, 239, 230);
+    background-color: rgba(167, 139, 172, 0.644);
     font-weight: 700;
+    font-size: 16px;
     padding: 10px;
-    font-family: 'Poppins', sans-serif;
-    font-size: 20px;
+    font-family: 'Poppins';
 }
 
 hr {
-    border-top: 2px solid rgb(143, 177, 127) !important;
+    border-top: 2px solid rgba(136, 255, 0, 0.623) !important;
 }
 
 .div-cotizar {
@@ -33,332 +38,23 @@ hr {
     text-align: center;
 }
 
-.link-secondary{
-    margin: 50px;
-}
-
-li {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-between;
-    font-family: 'Poppins', sans-serif;
-    font-size: 10px;    
-}
-
-.blog-header {
-    border-bottom: 1px solid #e5e5e5;
-}
-.lh-1 {
-    line-height: 1!important;
-}
-.py-3 {
-    padding-top: 1rem!important;
-    padding-bottom: 1rem!important;
-}
-
-header {
-    display: block;
-    width: 95%;
-    align-items: center;
-}
-.container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-    --bs-gutter-y: 0;
-    margin-right: auto;
-    margin-left: auto;
-    width: 100%;
-    padding-right: calc(var(--bs-gutter-x) * .5);
-    padding-left: calc(var(--bs-gutter-x) * .5);
-}
-
-body {
-    margin: 0;
-    font-family: var(--bs-body-font-family);
-    font-size: var(--bs-body-font-size);
-    font-weight: var(--bs-body-font-weight);
-    line-height: var(--bs-body-line-height);
-    color: var(--bs-body-color);
-    text-align: var(--bs-body-text-align);
-    background-color: var(--bs-body-bg);
-    -webkit-text-size-adjust: 100%;
-    -webkit-tap-highlight-color: transparent;
-}
-
-.mb-2 {
-    margin-bottom: 0.5rem!important;
-}
-
-.row {
-    --bs-gutter-x: 1.5rem;
-    --bs-gutter-y: 0;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: calc(-1 * var(--bs-gutter-y));
-    margin-right: calc(-.5 * var(--bs-gutter-x));
-    margin-left: calc(-.5 * var(--bs-gutter-x));
-}
-*, ::after, ::before {
-    box-sizing: border-box;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-    background: #e5e5e5;
-    text-align: center;
-    padding: 20px 25px;
-    box-shadow: 0 5px 5px rgba(80, 94, 83, 0.264);
-}
-
-.title {
-    color: rgb(10, 20, 20);
-    font-size: 35px;
-    font-weight: 800;
-    margin-bottom: 30px;
-}
-
-form label {
-    margin-bottom: 35px;
-}
-
-.fa-solid {
-    font-size: 20px;
-    color: rgba(49, 226, 43, 0.548);
-    margin-right: 10px;
-}
-
-form label input {
-    outline: none;
-    border: none;
-    color: black;
-    border-bottom: solid 1px rgb(51, 153, 102);
-    padding: 0 5px;
-    font-size: 18px;
-}
-
-.button {
-    display: inline;
-    justify-content: space-around;
-    align-items: center;
-    margin: 5%;
-}
-
-
-.button-delete {
-    background: darkred !important;
-}
-
-.button-small {
-    font-size: .8rem;
-    height: 2.8rem;
-    line-height: 2.8rem;
-    padding: 0 1.5rem;
-  }
-
-body {
+.error-prendas {
     padding: 20px;
-}
-
-h1, h2, h3, h4 {
-    font-weight: 500;
-}
-
-p, span, strong, code {
-    font-size: larger;
-}
-
-em {
-    font-size: medium;
-}
-
-.container {
-    margin: 15px;
-    display: flex;
-    flex: auto;
-}
-
-.card {
-    box-shadow: 5px 20px 20px rgba(211, 211, 211, 0.3);
-    border: 1px solid rgba(211, 211, 211, 0.384);
-    border-radius: 8px;
-    height: 230px;
-    width: 180px; 
-}
-
-.card:hover {
-    transition: .5s ease-in;
-    box-shadow: 5px 20px 60px rgba(211, 211, 211, 0.519);
-}
-
-.card .card-image {
-    text-align: justify;
-    font-size: 60px;
-    display: block;
-    width: 1fr;
-}
-
-.card .card-name {
     text-align: center;
-    font-size: 24px;
-    font-weight: 700;
-    display: block;
-    width: 1fr;
+    background-color: rgba(196, 43, 5, 0.664);
+    color: whitesmoke;
+    border-radius: 12px;
 }
 
-.card .card-price {
-    text-align: center;
-    font-size: 20px;
-    font-weight: 500;
-    display: block;
-    width: 1fr;
+button.button.button-outline {
+    font-size: x-large !important;
 }
 
-.card .card-button {
-    text-align: center;
-    display: block;
-}
-
-.button-add {
-    border-radius: 10px;
-    outline: 1px solid rgba(17, 75, 29, 0.712) !important;
-}
-
-.card .card-button button {
-    margin-top: 10px;
-    font-size: 20px !important;
-}
-
-.card .card-button .disabled {
-    background-color: rgb(34, 85, 19) !important;
-    color: whitesmoke !important;
-}
-
-.card .card-button button:active {
-    background: rgb(7, 92, 25) !important;
-    color: white !important;
-}
-
-.sin-stock {
-    filter: grayscale(100%) opacity(30%);
-}
-
-.card-error {
-    box-shadow: 0px 6px 20px rgba(255, 0, 0, 0.147);
-    border: 1px solid darkred;
-    border-radius: 6px;
-    padding: 40px;
-    color: red;
-}
-
-.centrar-div {
-    text-align: center;
-}
-
-.formulario {
-    padding: 40px;
-    border-radius: 10px;
-    background-color: rgba(0, 139, 19, 0.373);
-    box-shadow: 5px 10px 40px lightgray;
-}
-
-.btn-checkout {
-    border-radius: 50%;
-    margin-right: 10px;
-    margin-top: 10px;
-    display: inline;
-    padding: 10px;
-    float: right;
-    height: 70px;
-    width: 70px;
-}
-
-.btn-checkout img {
-    width: 60px;
-}
-
-.btn-checkout:hover {
-    box-shadow:  rgba(128, 128, 128, 0.476);
-    transition: 0.17s ease-in;
-}
-
-.btn-checkout:active {
-    transition: 0.3s ease-out;
-    filter: grayscale(100%)
-}
-
-.ocultar {
-    display: none !important;
-}
-
-thead tr {
-    background-color: rgb(52, 95, 71);
-    color: white;
-}
-
-#tablehead {
-    padding: 10px;
-}
-
-tbody tr:nth-child(even) {
-    background: rgba(15, 107, 84, 0.252) !important;
-}
-
-.centrar {
-    text-align: center;
-}
-
-#btnComprar:hover {
-    background-color: rgb(47, 126, 53);
-}
-
-#btnComprar:active {
-    background-color: black;
+button.button.button-outline:active {
+    background: rgb(105, 98, 117) !important;
 }
 
 
-/* ELEMENTOS DE CHECKOUT.HTML */
-
-@media screen and (width <= 420px) {
-
-    .form-checkout {
-        padding: 8px;
-        width: 100%;
-    }
-
-    div.form-checkout p {
-        font-size: 14px;
-        font-weight: 700;
-    }
-
-    table {
-        margin: 0 auto;
-        width: 100% !important;
-        margin-bottom: 60px;
-    }
-}
-
-@media screen and (width <= 767px) {
-    .form-checkout {
-        padding: 10px;
-        width: 100%;
-    }
-
-    table {
-        margin: 0 auto;
-        width: 100%;
-        margin-bottom: 60px;
-    }
-}
-
-@media screen and (width >= 768px) {
-    div.form-checkout {
-        padding: 30px;
-        max-width: 600px;
-    }
-
-    table {
-        margin: 0 auto;
-        max-width: 600px;
-        margin-bottom: 80px;
-    }
+.ver-carrito {
+    margin-top: 3%;
 }

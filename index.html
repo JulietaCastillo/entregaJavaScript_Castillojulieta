@@ -1,88 +1,42 @@
 <!DOCTYPE html>
-<html>
-        
-  <head>
-      <title>TLL</title>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-      <!--CSS MIO--> 
-      <link rel="stylesheet" href="css/estilos.css">
-      <!-- CSS BS -->
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-  
-      <!--js--> 
-      <script defer src="js/main.js"></script>
-      <script defer src="js/productos.js"></script>
-  </head>
-
-  <body class="fondo_index">
-    
-    <header>          
-        <div class="btn-checkout">
-          <a href="carrito.html">
-              <img src="" id="imgCarrito" title="Carrito" alt="Carrito">
-          </a>
-      </div>
-
-      <h1 class= "display-4" id="titulo"></h1>
-      <p class= "display-6" id="frase"></p>
-      <input type="search" id="inputSearch" placeholder="Ingresa el producto a buscar" class="">
-      <hr>
-    </header>      
-
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>TLL</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="" type="image/png">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/productos.js"></script>
+    <script src="js/class.compra.js"></script>
+    <script defer src="js/main.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Te Leo Luego</h1>
+        <h2>Tu tienda de libros online</h2>
+    </header>
     <main>
-      
       <div>
-          <div class="p-4 p-md-5 mb-4 rounded text-bg-dark">
-              <div class="col-md-6 px-0">
-                <h2 class="display-6 fst-italic">El regalo de un libro, además de obsequio, es un delicado elogio</h2>
-              </div>
-          </div>  
-          <div>
-            <h2 class="display-5">Nuestro Catálogo</h2>
-          </div>
+          <h3>Nuestra biblioteca de libros</h3>
+          <table>
+              <tbody>
+                  <tr>
+                      <td></td>
+                      <td>El señor de los anillos. La comunidad del anillo.</td>
+                      <td>1234</td>
+                      <td><button class="button button-outline" title="Agregar al carrito">🛒</button></td>
+                  </tr>
+              </tbody>
+          </table>
       </div>
-
-      <div class="container" id="container"></div>
-
-      <div class="card-error ocultar">
-          <h2>ERROR</h2>
-          <h3>No pudimos cargar la biblioteca.</h3>
-          <h3>Intenta nuevamente en unos instantes...</h3>
+      <div class="ver-carrito">
+        <button id="verCarrito">VER CARRITO</button>
       </div>
-
-      <hr>
-
-      <section>
-        <button class="button button-grey" onclick="agregarLibro()">AGREGAR</button>
-        <button class="button button-outline" onclick="buscarLibro()">BUSCAR</button>
-        <button class="button button-delete" onclick="quitarLibro()">QUITAR</button>
-        <button class="button" onclick="ordenarLibros()">ORDENAR</button>
-      </section>  
-
-      <ol>
-        <li>El Señor de los anillos. La Comunidad del anillo</li>
-        <li>El Señor de los anillos. Las dos Torres</li>
-        <li>El Señor de los anillos. El Retorno del Rey</li>
-        <li>Los Padecientes</li>
-      </ol>
-
-      <hr>
-
-      <div class="container" id="container">
-      </div>
-
     </main>
-
     <footer>
         <br>
-        <p>Esudiante: Julieta Castillo</p>
-        <p>Curso: JavaScript, comisión 34095</p>
+        <p>Estudiante: Julieta Castillo</p>
+        <p> Comisión JavaScript 34095 </p>
     </footer>
-        
-    <!-- JavaScript Bundle with Popper -->
-    <!--js--> 
-    <script defer src="js/dom.js"></script>
-  </body>
-  </html>
+</body>
+</html>
