@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cotizar envio</title>
+    <link rel="icon" href="imagen/favicon1.png" type="imagen/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script defer src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script src="js/class.cotizador.js"></script>
+    <script defer src="js/variables.js"></script>
+    <script defer src="js/app.js"></script>
+    
+</head>
+
+<body class="fondo_envio">
+    <h1 class="center separador" id="titulo_envio">Calcula el envio de tus productos. Solo dentro de Argentina</h1>
+    <div class="div_cotizador">
+        <h2 class="h2_envios center separador">Completa los datos para cotizar</h2>
+        <div class="datos_completar">
+            <div class="tit_datos">  
+                <label for="provincia">Selecciona tu provincia</label>
+            </div>
+            <div>
+                <select id="provincia">
+                    <option selected disabled>...</option>
+                </select>
+            </div>
+            <div class="tit_datos">
+                <label  for="ubicacion">Selecciona ciudad</label></div>
+            <div>
+                <select id="ubicacion">
+                    <option selected disabled>...</option>
+                </select>
+            </div>
+            <div class="tit_datos">
+                <label for="libros">Ingresa la cantidad de libros comprados</label>
+                <input type="number" id="libros" value="1" min="1" max="500">
+            </div>
+            <div class="center separador">
+                <button class="button button-outline botoncotizar">Cotizar</button>
+            </div>
+        </div>
+        <div class="center separador">
+            <p class="importe">Precio estimado de envío: $
+                <span id="valorEnvio">0.00</span>
+            </p>
+        </div>
+    </div>
+    <div class="centrar-div">
+        <button class="button button-outline boton_seguircomprando"><a href="index.html">Seguir comprando</a></button> 
+    </div>
+</body>
+
+</html>

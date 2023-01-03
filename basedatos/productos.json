@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "imagen": "imagen/sdla_1.jpg",
+        "nombre": "El señor de los anillos, la comunidad del anillo.",
+        "precio": 7300
+    },
+    {
+        "id": 2,
+        "imagen": "imagen/sdla_2.jpg",
+        "nombre": "El señor de los anillos, las dos torres",
+        "precio": 6600
+    },
+    {
+        "id": 3,
+        "imagen": "imagen/sdla_3.jpg",
+        "nombre": "El señor de los anillos, el retorno del Rey",
+        "precio": 7500
+    },
+    {
+        "id": 4,
+        "imagen": "imagen/gm_1.jpg",
+        "nombre": "Memorias de un amante Sarnoso",
+        "precio": 3500
+    },
+    {
+        "id": 5,
+        "imagen": "imagen/hm_1.jpg",
+        "nombre": "Norwegian Wood, Tokio blues",
+        "precio": 4600
+    },
+    {
+        "id": 6,
+        "imagen": "imagen/ja_1.jpg",
+        "nombre": "Orgullo y prejuicio",
+        "precio": 7200
+    },
+    {
+        "id": 7,
+        "imagen": "imagen/ja_2.jpg",
+        "nombre": "Persuasión",
+        "precio": 5000
+    },
+    {
+        "id": 8,
+        "imagen": "imagen/ja_3.jpg",
+        "nombre": "Emma",
+        "precio": 5000
+    },
+    {
+        "id": 9,
+        "imagen": "imagen/ja_4.jpg",
+        "nombre": "Sensatez y sentimiento",
+        "precio": 6200
+    },
+    {
+        "id": 10,
+        "imagen": "imagen/ja_5.jpg",
+        "nombre": "Lady Susan",
+        "precio": 3500
+    },
+    {
+        "id": 11,
+        "imagen": "imagen/ja_6.jpg",
+        "nombre": "La abadía de Northanger",
+        "precio": 4200
+    },
+    {
+        "id": 12,
+        "imagen": "imagen/hp_1.png",
+        "nombre": "Harry Potter, y la piedra filosofal",
+        "precio": 4800
+    },
+    {
+        "id": 13,
+        "imagen": "imagen/hp_2.jpg",
+        "nombre": "Harry Potter, y la cámara secreta",
+        "precio": 5000
+    },
+    {
+        "id": 14,
+        "imagen": "imagen/hp_3.jpg",
+        "nombre": "Harry Potter, y el prisionero de Azkaban",
+        "precio": 5300
+    },
+    {
+        "id": 15,
+        "imagen": "imagen/hp_4.png",
+        "nombre": "Harry Potter, y el cáliz de fuego",
+        "precio": 6600
+    },
+    {
+        "id": 16,
+        "imagen": "imagen/hp_5.jpg",
+        "nombre": "Harry Potter, y la Orden del Fénix",
+        "precio": 7400
+    },
+    {
+        "id": 17,
+        "imagen": "imagen/hp_6.jpg",
+        "nombre": "Harry Potter,y el príncipe mestizo",
+        "precio": 7600
+    },
+    {
+        "id": 18,
+        "imagen": "imagen/hp_7.jpg",
+        "nombre": "Harry Potter, las reliquias de la muerte",
+        "precio": 8000
+    },
+    {
+        "id": 19,
+        "imagen": "imagen/p_1.png",
+        "nombre": "El Principito",
+        "precio": 2500
+    },
+    {
+        "id": 20,
+        "imagen": "imagen/mew_1.jpg",
+        "nombre": "Zoo Loco",
+        "precio": 3000
+    }
+]
