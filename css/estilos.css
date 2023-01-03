@@ -15,6 +15,17 @@ body {
     align-items: center;
 } 
 
+button:hover {
+    margin: 10px;
+    padding: 10px;
+    color: whitesmoke !important;
+    background-color: rgba(82, 51, 112, 0.692) !important;
+}
+
+button:active {
+    background-color: black !important;
+}
+
 em {
     font-size: medium;
 }
@@ -107,7 +118,7 @@ th {
 
 .button-add {
     border-radius: 10px;
-    outline: 0.1px solid rgb(66, 32, 109) !important;
+    outline: 0.1px solid rgb(79, 49, 117) !important;
     padding: 5px;
 }
 
@@ -136,6 +147,19 @@ th {
 .btn-checkout:active {
     transition: 0.3s ease-out;
     filter: grayscale(100%)
+}
+
+.botoncotizar {
+    margin-top: 20px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;   
+}
+
+.seguircomprando {
+    margin: 10px;
+    margin-top: 20px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
 }
 
 .card .card-button button {
@@ -230,6 +254,38 @@ th {
     font-size: 20px;
 }
 
+.datos_completar {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    width: 100%;
+    margin-left: 10%;
+    padding: 5px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+}
+
+.div_cotizador {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    background-color: rgba(70, 69, 61, 0.267);
+    margin-left: 10%;
+    margin-right: 5%;
+    padding: 10px;
+    border-color: whitesmoke;
+    box-shadow: 26px 28px 15px -8px rgba(0,0,0,0.15);
+    border-radius: 0.7rem;
+}
+
+.espacio_datos {
+    background-color: #fefeff;
+    height: 30px;
+}
+
 .formulario {
     padding: 40px;
     border-radius: 10px;
@@ -237,16 +293,85 @@ th {
     box-shadow: 5px 10px 40px lightgray;
 }
 
+.fondo_envio {
+    width: auto;
+    padding: 10px;
+}
+
+.guardar {
+    border: 1px transparent;
+    border-radius: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 20px;
+    font-size: 4rem;
+    cursor: pointer;
+}
+
+.guardar:hover {
+    background-color: rgb(35, 48, 104);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.guardar:active {
+    background-color: black !important;
+}
+
+.h2_envios {
+    font-family: 'Nunito', sans-serif;
+    font-size: 25px;
+    color: #113B66;
+    font-weight: 300;
+}
+
+.importe {
+    text-align: center;
+    color: rgb(46, 79, 129);
+    font-size: x-large;
+    font-weight: 700;
+
+}
+
 .img_libros {
     height: 250px;
 }
 
+label {
+    font-weight: 400;
+    color: black;
+}
+
 .ocultar {
     display: none !important;
+    visibility: hidden;
 }
 
 .sin-stock {
     filter: grayscale(100%) opacity(30%);
+}
+
+select, input {
+    min-width: 50% !important;
+    width: 70% !important;
+}
+
+.separador {
+    margin: 20px;
+}
+
+.tit_datos {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.tabla_precio {
+    padding-left: 70px;
+}
+
+.tabla_nombre {
+    padding-left: 20px;
+    width: 60%;
 }
 
 
@@ -265,8 +390,30 @@ th {
 }
 
 #btnComprar:active {
-    background-color: black;
+    background-color: rgb(0, 0, 0);
 }
+
+#total {
+    color: #30398b;
+    padding-bottom: 15px;  
+}
+
+#titulo_envio {
+    color: #FFC300;
+    padding: 10px;
+    font-weight: 200;
+    font-size: 30px;
+    font-family: 'Frank Ruhl Libre', serif;
+    background-color: #113B66;
+    opacity: 80%;
+}
+
+#tablehead {
+    padding: 15px;
+    text-align: center;
+    width: 30%;
+}
+
 
 
 /*----------------------------MEDIA---------------------------------*/
@@ -314,142 +461,4 @@ th {
         max-width: 600px;
         margin-bottom: 80px;
     }
-}
-
-
-/* -----------------CSS especifico DE ENVIOS---------------------*/
-
-#titulo_envio {
-    color: #FFC300;
-    padding: 10px;
-    font-weight: 200;
-    font-size: 30px;
-    font-family: 'Frank Ruhl Libre', serif;
-    background-color: #113B66;
-    opacity: 80%;
-}
-
-#tablehead {
-    padding: 15px;
-    text-align: center;
-    width: 30%;
-}
-
-.h2_envios {
-    font-family: 'Nunito', sans-serif;
-    font-size: 25px;
-    color: #113B66;
-}
-
-label {
-    font-weight: 400;
-    color: black;
-}
-
-.div_cotizador {
-    display: inline-flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 80%;
-    background-color: white;
-    margin-left: 10%;
-    margin-right: 5%;
-    padding: 10px;
-    border-color: whitesmoke;
-    box-shadow: 26px 28px 15px -8px rgba(0,0,0,0.15);
-    border-radius: 0.7rem;
-}
-
-select, input {
-    min-width: 50% !important;
-    width: 70% !important;
-}
-
-.separador {
-    margin: 20px;
-}
-
-.importe {
-    color: rgb(46, 79, 129);
-    font-size: x-large;
-    font-weight: 700;
-}
-
-.fondo_envio {
-    width: auto;
-    padding: 10px;
-}
-
-.guardar {
-    border: 1px transparent;
-    border-radius: 4px;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-left: 20px;
-    font-size: 4rem;
-    cursor: pointer;
-}
-
-.guardar:hover {
-    background-color: rgb(35, 48, 104);
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-.guardar:active {
-    background-color: black !important;
-}
-
-.ocultar {
-    visibility: hidden;
-}
-
-button:hover {
-    margin: 10px;
-    padding: 10px;
-    color: whitesmoke !important;
-    background-color: rgba(82, 51, 112, 0.692) !important;
-}
-
-button:active {
-    background-color: black !important;
-}
-
-.botoncotizar {
-    margin: 5px;
-    font-family: 'Nunito', sans-serif;
-    font-size: 18px;
-}
-
-.boton_seguircomprando {
-    margin: 10px;
-    font-family: 'Nunito', sans-serif;
-    font-size: 18px;
-}
-
-.datos_completar {
-    display: inline-flex;
-    flex-direction: column;
-    align-items: left;
-    justify-content: center;
-    width: 100%;
-    margin-left: 10%;
-    padding: 5px;
-    font-family: 'Nunito', sans-serif;
-    font-size: 18px;
-}
-
-.tit_datos {
-    padding-top: 20px;
-    padding-bottom: 10px;
-}
-
-.tabla_precio {
-    padding-left: 70px;
-}
-
-.tabla_nombre {
-    padding-left: 20px;
-    width: 60%;
 }
